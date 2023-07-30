@@ -32,7 +32,15 @@ Users can interact with the program to compare system usage between these cities
 - counts of each gender (only available for NYC and Chicago)
 - earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
+### Files used
+--------------
+#### Datasets for bike share data (January to June 2017)
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
+#### Python script for this project
+- bikeshare.py
 
 
 
