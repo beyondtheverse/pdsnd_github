@@ -42,5 +42,11 @@ Users can interact with the program to compare system usage between these cities
 #### Python script for this project
 - bikeshare.py
 
+### Credits
+------------
+#### Resources used:
+- Generate tabular data using python tabulate https://pypi.org/project/tabulate/
 
+- Remove dtype info from Pandas mode values https://www.appsloveworld.com/pandas/100/159/remove-dtype-info-from-pandas-mode-values
+- PEP 257 - Python docstring conventions https://peps.python.org/pep-0257/
 
