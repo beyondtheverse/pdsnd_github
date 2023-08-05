@@ -1,13 +1,11 @@
 from tabulate import tabulate
-import time
 import pandas as pd
-import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-def get_filters():
+def get_user_input():
     """
     Asks user to specify a city, month, and day to analyze.
 
@@ -334,7 +332,7 @@ def main():
     Asks user if they want to start the program again or exit. """
 
     while True:
-        city, month, day = get_filters()
+        city, month, day = get_user_input()
         df = load_data(city, month, day)
 
         display_raw_data(df)
